@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/07 13:25:37.000.699,C:\Users\marci\Documents\Embarcadero\Studio\Projects\ProjectGroup1.groupproj=E:\Estudos\Exames\ProvaDelphiApp\src\GrupoProvaDelphiApp.groupproj</Transaction>
+    <Transaction>2021/05/07 14:40:31.000.900,E:\Estudos\Exames\ProvaDelphiApp\src\GrupoProvaDelphiApp.groupproj=E:\Estudos\Exames\ProvaDelphiApp\src\ProvaDelphi.groupproj</Transaction>
+  </Transactions>
+	<Default.Personality>
+		<Projects ActiveProject="E:\Estudos\Exames\ProvaDelphi\App\src\ProvaDelphiApp.dproj"/>
+	</Default.Personality>
+</BorlandProject>

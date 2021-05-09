@@ -1,0 +1,54 @@
+unit uMinhaThread;
+
+interface
+
+uses
+   SysUtils, Classes, ComCtrls;
+
+type
+   TMinhaThread = class(TThread)
+   private
+      { Private declarations }
+      fBarraDeProgresso: TProgressBar;
+      fTempoDeEspera: Integer;
+   protected
+      { Protected declarations }
+      procedure Execute; override;
+   public
+      { Public declarations }
+      constructor Create(CreateSuspended: Boolean);
+      destructor Destroy; override;
+      property BarraDeProgresso: TProgressBar Read fBarraDeProgresso Write fBarraDeProgresso;
+      property TempoDeEspera: Integer Read fTempoDeEspera Write fTempoDeEspera;
+   end;
+
+implementation
+
+{ TMinhaThread }
+
+constructor TMinhaThread.Create(CreateSuspended: Boolean);
+begin
+   inherited Create(CreateSuspended);
+   fBarraDeProgresso := TProgressBar.Create(nil);
+   FreeOnTerminate := True;
+end;
+
+destructor TMinhaThread.Destroy;
+begin
+   FreeAndNil(fBarraDeProgresso);
+  inherited;
+end;
+
+procedure TMinhaThread.Execute;
+var
+   I: Integer;
+begin
+  inherited;
+   for I := 0 to 100 do
+      begin
+         fBarraDeProgresso.Position := fBarraDeProgresso.Position + 1;
+         Sleep(TempoDeEspera);
+      end;
+end;
+
+end.

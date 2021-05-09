@@ -1,0 +1,92 @@
+unit spQuery;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client;
+
+type
+  TspQuery = class(TFDQuery)
+  private
+    { Private declarations }
+    fspCondicoes: TStringList;
+    fspColunas: TStringList;
+    fspTabelas: TStringList;
+    function GetspColunas: TStringList;
+    function GetspCondicoes: TStringList;
+    procedure SetspColunas(const Value: TStringList);
+    procedure SetspCondicoes(const Value: TStringList);
+    procedure SetspTabelas(const Value: TStringList);
+    procedure SetsppTabelas(const Value: TStringList);
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+  published
+    { Published declarations }
+    constructor Create; override;
+    destructor Destroy; override;
+    property spCondicoes: TStringList Read GetspCondicoes Write SetspCondicoes;
+    property spColunas: TStringList Read GetspColunas Write SetspColunas;
+    property spTabelas: TStringList Rad GetspTabelas Write SetspTabelas;
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('Samples', [TspQuery]);
+end;
+
+{ TspQuery }
+
+constructor TspQuery.Create;
+begin
+  inherited;
+   fspCondicoes := TStringList.Create;
+   fspColunas := TStringList.Create;
+   fspTabelas := TStringList.Create;
+end;
+
+destructor TspQuery.Destroy;
+begin
+   FreeAdNil(fspCondicoes);
+   FreeAdNil(fspColunas);
+   FreeAdNil(fspTabelas);
+  inherited;
+end;
+
+function TspQuery.GetspColunas: TStringList;
+begin
+   Result := fspColunas;
+end;
+
+function TspQuery.GetspCondicoes: TStringList;
+begin
+   Result := fspCondicoes;
+end;
+
+procedure TspQuery.SetspColunas(const Value: TStringList);
+begin
+
+end;
+
+procedure TspQuery.SetspCondicoes(const Value: TStringList);
+begin
+
+end;
+
+procedure TspQuery.SetsppTabelas(const Value: TStringList);
+begin
+
+end;
+
+procedure TspQuery.SetspTabelas(const Value: TStringList);
+begin
+
+end;
+
+end.

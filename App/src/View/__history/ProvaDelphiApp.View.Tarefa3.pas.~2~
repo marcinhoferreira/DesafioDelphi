@@ -1,0 +1,30 @@
+unit ProvaDelphiApp.View.Tarefa3;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TfrmTarefa3 = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmTarefa3: TfrmTarefa3;
+
+implementation
+
+{$R *.dfm}
+
+initialization
+   RegisterClass(TfrmTarefa3);
+
+finalization
+   UnRegisterClass(TfrmTarefa3);
+
+end.

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/07/11 09:56:03.000.169,=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/15 13:14:24.000.524,=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/07/31 10:33:28.000.052,=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/09/25 10:50:13.000.903,=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/15 14:12:07.000.553,=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/04/17 11:18:09.000.130,=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 11:17:07.000.583,=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 11:19:56.000.549,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.MenuPrincipal.pas=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 11:19:56.000.549,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.MenuPrincipal.dfm=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/05/07 11:20:15.000.002,E:\Estudos\Exames\ProvaDelphiApp\src\ProvaDelphiApp.dproj=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/05/07 13:09:56.000.714,=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 13:10:35.000.927,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa1.pas=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 13:10:35.000.927,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa1.dfm=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.dfm</Transaction>
+    <Transaction>2021/05/07 13:11:33.000.000,=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 13:11:53.000.146,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa2.pas=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 13:11:53.000.146,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa2.dfm=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.dfm</Transaction>
+    <Transaction>2021/05/07 13:13:11.000.118,=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 13:13:37.000.825,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa3.pas=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 13:13:37.000.825,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa3.dfm=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.dfm</Transaction>
+    <Transaction>2021/05/07 19:09:05.000.628,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa1.dfm=E:\Estudos\Exames\ProvaDelphiApp\src\View\uTarefa1.dfm</Transaction>
+    <Transaction>2021/05/07 19:09:05.000.628,E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa1.pas=E:\Estudos\Exames\ProvaDelphiApp\src\View\uTarefa1.pas</Transaction>
+    <Transaction>2021/05/09 16:35:19.000.581,E:\Estudos\Exames\ProvaDelphiApp\src\View\uTarefa2.dfm=E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa2.dfm</Transaction>
+    <Transaction>2021/05/09 16:35:19.000.581,E:\Estudos\Exames\ProvaDelphiApp\src\View\uTarefa2.pas=E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa2.pas</Transaction>
+    <Transaction>2021/05/09 16:55:08.000.404,=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/09 16:55:50.000.133,E:\Estudos\Exames\ProvaDelphiApp\src\Classes\uMinhaThread.pas=E:\Estudos\Exames\ProvaDelphiApp\src\Unit1.pas</Transaction>
+    <Transaction>2021/05/09 18:04:23.000.622,E:\Estudos\Exames\ProvaDelphiApp\src\View\uTarefa3.dfm=E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa3.dfm</Transaction>
+    <Transaction>2021/05/09 18:04:23.000.622,E:\Estudos\Exames\ProvaDelphiApp\src\View\uTarefa3.pas=E:\Estudos\Exames\ProvaDelphiApp\src\View\ProvaDelphiApp.View.Tarefa3.pas</Transaction>
+    <Transaction>2021/05/09 18:06:28.000.632,E:\Estudos\Exames\ProvaDelphiApp\src\Classes\uThreadProgresso.pas=E:\Estudos\Exames\ProvaDelphiApp\src\Classes\uMinhaThread.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Classes"/>
+    <File Path="Classes\uThreadProgresso.pas"/>
+    <File Path="View"/>
+    <File Path="View\ProvaDelphiApp.View.MenuPrincipal.pas"/>
+    <File Path="View\ProvaDelphiApp.View.MenuPrincipal.dfm"/>
+    <File Path="View\uTarefa2.pas"/>
+    <File Path="View\uTarefa2.dfm"/>
+    <File Path="View\uTarefa3.pas"/>
+    <File Path="View\uTarefa3.dfm"/>
+    <File Path="View\uTarefa1.pas"/>
+    <File Path="View\uTarefa1.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

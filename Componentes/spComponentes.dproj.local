@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/05/07 14:32:04.000.723,=rtl.dcp</Transaction>
+    <Transaction>2021/05/07 14:41:38.000.214,E:\Estudos\Exames\Componentes\spComponentes.dproj=C:\Users\marci\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2021/05/07 14:42:59.000.769,=E:\Estudos\Exames\Componentes\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 14:44:58.000.037,E:\Estudos\Exames\Componentes\spQuery.pas=E:\Estudos\Exames\Componentes\Unit1.pas</Transaction>
+    <Transaction>2021/05/07 14:47:15.000.743,=xmlrtl.dcp</Transaction>
+    <Transaction>2021/05/07 14:47:15.000.729,=FireDACSqliteDriver.dcp</Transaction>
+    <Transaction>2021/05/07 14:47:15.000.719,=dbrtl.dcp</Transaction>
+    <Transaction>2021/05/07 14:47:15.000.739,=FireDACCommon.dcp</Transaction>
+    <Transaction>2021/05/07 14:47:15.000.724,=FireDAC.dcp</Transaction>
+    <Transaction>2021/05/07 14:47:15.000.733,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2021/05/07 18:36:09.000.726,E:\Estudos\Exames\Componentes\spQuery.pas=E:\Estudos\Exames\Componentes\uspQuery.pas</Transaction>
+  </Transactions>
+</BorlandProject>

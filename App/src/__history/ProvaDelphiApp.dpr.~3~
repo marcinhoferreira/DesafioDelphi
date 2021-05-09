@@ -1,0 +1,17 @@
+program ProvaDelphiApp;
+
+uses
+  Vcl.Forms,
+  ProvaDelphiApp.View.MenuPrincipal in 'View\ProvaDelphiApp.View.MenuPrincipal.pas' {frmMenuPrincipal},
+  ProvaDelphiApp.View.Tarefa1 in 'View\ProvaDelphiApp.View.Tarefa1.pas' {frmTarefa1},
+  ProvaDelphiApp.View.Tarefa2 in 'View\ProvaDelphiApp.View.Tarefa2.pas' {frmTarefa2};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMenuPrincipal, frmMenuPrincipal);
+  Application.CreateForm(TfrmTarefa2, frmTarefa2);
+  Application.Run;
+end.
