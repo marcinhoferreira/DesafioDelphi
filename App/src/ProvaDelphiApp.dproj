@@ -87,7 +87,7 @@
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <DCC_UnitSearchPath>E:\Estudos\Exames\ProvaDelphi\Componentes\Lib;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>E:\Estudos\Exames\DesafioDelphi\Componentes;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
@@ -103,6 +103,7 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
+        <DCCReference Include="Classes\uThreadProgresso.pas"/>
         <DCCReference Include="View\ProvaDelphiApp.View.MenuPrincipal.pas">
             <Form>frmMenuPrincipal</Form>
             <FormType>dfm</FormType>
@@ -111,7 +112,6 @@
             <Form>fTarefa1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Classes\uThreadProgresso.pas"/>
         <DCCReference Include="View\uTarefa2.pas">
             <Form>fTarefa2</Form>
         </DCCReference>
